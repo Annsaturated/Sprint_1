@@ -6,11 +6,13 @@ world_champions = {
     2018: 'Франция',
 }
 
+# В словарь добавлена новая страна
 world_champions[2022] = 'Аргентина'
 print (world_champions)
 
 country = 'Италия'
 
+# Проверка выигрывала ли Италия чемпионат в 21 веке
 if country in world_champions.values():
     print ("Италия cтановилась чемпионом мира по футболу в 21 веке!")
 else:
